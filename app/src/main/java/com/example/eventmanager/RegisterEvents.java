@@ -59,7 +59,7 @@ public class RegisterEvents extends AppCompatActivity {
             HashMap<String,Object> event = new HashMap<>();
             event.put("Event_Name",EventName);
             event.put("venue",venue);
-            event.put("date",time);
+            event.put("date",date);
             userId = mAuth.getCurrentUser().getUid();
             CollectionReference collectionReference = fStore.collection("users");
             collectionReference.document(userId).collection("Registered_Events").add(event);
