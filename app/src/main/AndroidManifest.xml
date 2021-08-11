@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EventManager">
-        <activity android:name=".MyEvents"></activity>
+        <activity android:name=".Registraion"></activity>
+        <activity android:name=".MyEvents" />
         <activity android:name=".RegisterEvents" />
         <activity android:name=".FoodDetails" />
         <activity android:name=".MusicDetails" />
@@ -19,12 +20,8 @@
         <activity android:name=".TechDetails" />
         <activity android:name=".AllEvents" />
         <activity android:name=".profile" />
-        <activity
-            android:name=".Navigation"
-            android:label="@string/title_activity_navigation"
-            android:theme="@style/Theme.EventManager.NoActionBar" />
         <activity android:name=".login" />
-        <activity android:name=".Registraion">
+        <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
