@@ -2,6 +2,8 @@ package com.example.eventmanager;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,7 +30,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 
-public class RegisterEvents extends AppCompatActivity {
+public class  RegisterEvents extends AppCompatActivity {
     EditText eventName, place , date;
     Button EventRegisterBtn;
     FirebaseAuth mAuth;
@@ -68,6 +70,10 @@ public class RegisterEvents extends AppCompatActivity {
 
         });
 
+
+
     }
+
+
 
 }

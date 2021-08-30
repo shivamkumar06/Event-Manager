@@ -40,7 +40,7 @@ public class login extends AppCompatActivity {
         mloginBtn = findViewById(R.id.loginBtn);
         mRegisterBtn = findViewById(R.id.RegisterLink);
         ProgressBar = findViewById(R.id.PB);
-        forgetTextLink = findViewById(R.id.forgetpassword);
+       // forgetTextLink = findViewById(R.id.forgetpassword);
 
 
         mAuth = FirebaseAuth.getInstance();
